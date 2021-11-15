@@ -12,7 +12,7 @@ const exampleFn = async () => {
     const output = JSON.stringify(response.output_json, null, 2);
     console.log(output);
   } catch (e) {
-    console.log(`Error: ${e}`);
+    console.log(e);
   }
 }
 
