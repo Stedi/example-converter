@@ -1,7 +1,7 @@
 # Install
 
 ```shell
-npm i
+npm ci
 ```
 
 # Set API key env var

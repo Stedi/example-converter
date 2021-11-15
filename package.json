@@ -11,7 +11,8 @@
     "csv-to-json": "node -r ts-node/register src/csv-to-json.ts"
   },
   "dependencies": {
-    "@stedi/sdk-converter-node": "file:pkg/sdk-converter-node-1.0.0-npm.tgz"
+    "@stedi/sdk-converter-node": "file:pkg/sdk-converter-node-1.1.0-npm.tgz",
+    "ts-node": "^10.4.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
