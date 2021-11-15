@@ -1,7 +1,9 @@
-# Stedi Converter example project
+# Stedi Converter Example Project
 
-This project provides a small example on how to use Stedi Converter's SDK. The SDK NPM package is in `/pkg`, and there's
+This project provides a small example on how to use Stedi Converter's Alpha SDK. The SDK NPM package is in `/pkg`, and there's
 an example on how to use it in `/src`. `/tst` provides a test file to convert.
+
+* Disclaimer: the API and SDK are still classed as Internal Preview, and under active development - therefore subject to change.
 
 ## Install
 
