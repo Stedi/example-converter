@@ -6,15 +6,19 @@
     "url": "git://github.com/stedi/example-converter.git"
   },
   "license": "ISC",
-  "author": "anton.eicher@stedi.com",
+  "author": "engineering@stedi.com",
   "scripts": {
     "csv-to-json": "node -r ts-node/register src/csv-to-json.ts"
   },
   "dependencies": {
-    "@stedi/sdk-converter-node": "file:pkg/sdk-converter-node-1.1.0-npm.tgz",
+    "@stedi/sdk-converter-node": "^1.17.0",
     "ts-node": "^10.4.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "volta": {
+    "node": "16.11.1",
+    "npm": "8.1.3"
   }
 }
