@@ -6,12 +6,12 @@
     "url": "git://github.com/stedi/example-converter.git"
   },
   "license": "ISC",
-  "author": "anton.eicher@stedi.com",
+  "author": "engineering@stedi.com",
   "scripts": {
     "csv-to-json": "node -r ts-node/register src/csv-to-json.ts"
   },
   "dependencies": {
-    "@stedi/sdk-converter-node": "^1.12.0",
+    "@stedi/sdk-converter-node": "^1.17.0",
     "ts-node": "^10.4.0"
   },
   "publishConfig": {
