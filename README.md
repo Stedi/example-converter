@@ -4,7 +4,7 @@ This project provides a small example on how to use the Stedi Converter SDK. The
 [NPM](https://www.npmjs.com/package/@stedi/sdk-converter-node), and there's an example on how to use it in `/src`
 . `/tst` provides a test file to convert.
 
-* Disclaimer: the API and SDK are still classed as Developer Preview, and under active development - therefore subject
+- Disclaimer: the API and SDK are still classed as Developer Preview, and under active development - therefore subject
   to change.
 
 ## Install
