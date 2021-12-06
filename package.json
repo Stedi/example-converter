@@ -8,11 +8,12 @@
   "license": "ISC",
   "author": "engineering@stedi.com",
   "scripts": {
-    "csv-to-json": "node -r ts-node/register src/csv-to-json.ts"
+    "csv-to-json": "npx ts-node src/csv-to-json.ts"
   },
   "dependencies": {
     "@stedi/sdk-converter-node": "^1.17.0",
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.4.0",
+    "abort-controller": "^3.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

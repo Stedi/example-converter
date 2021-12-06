@@ -22,10 +22,24 @@ Keys)
 export STEDI_API_KEY="..."
 ```
 
-## Run example
+## Run examples
+
+Convert [CSV to JSON](https://www.stedi.com/docs/api/converter#convert-csvToJson)
 
 ```
 npm run csv-to-json
+```
+
+Convert [JSON to CSV](https://www.stedi.com/docs/api/converter#convert-jsonToCsv)
+
+```
+npm run json-to-csv
+```
+
+Convert [XML to JSON](https://www.stedi.com/docs/api/converter#convert-xmlToJson)
+
+```
+npm run xml-to-json
 ```
 
 ## Stedi Converter User Guide
