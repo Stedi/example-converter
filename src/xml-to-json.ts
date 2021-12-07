@@ -5,11 +5,11 @@ OpenAPI.HEADERS = { Authorization: `Key ${process.env.STEDI_API_KEY}` };
 
 const exampleFn = async () => {
   try {
-    const input = fs.readFileSync("tst/sample.csv", "utf8");
-    const response = await Converter.convertCsvToJson({
-      input_csv: input,
+    const input = fs.readFileSync("tst/sample.xml", "utf8");
+    const response = await Converter.convertXmlToJson({
+      input_xml: input,
       options: {
-        trim: true,
+        attribute_name_prefix: "abc",
       },
     });
     const output = JSON.stringify(response.output_json, null, 2);
