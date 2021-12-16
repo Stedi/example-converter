@@ -42,6 +42,12 @@ Convert [XML to JSON](https://www.stedi.com/docs/api/converter#convert-xmlToJson
 npm run xml-to-json
 ```
 
+Example sending compressed [request payload](https://www.stedi.com/docs/converter#compression)
+
+```
+npm run compressed-payload
+```
+
 ## Stedi Converter User Guide
 
 The User Guide and API Reference are available on our [Stedi Docs](https://www.stedi.com/docs/converter) page.
