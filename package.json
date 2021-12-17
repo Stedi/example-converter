@@ -11,11 +11,13 @@
     "csv-to-json": "npx ts-node src/csv-to-json.ts",
     "json-to-csv": "npx ts-node src/json-to-csv.ts",
     "xml-to-json": "npx ts-node src/xml-to-json.ts",
+    "compressed-payload": "npx ts-node src/compressed-payload.ts",
     "fix": "prettier -w .",
     "check": "tsc --noEmit && prettier -c ."
   },
   "dependencies": {
     "@stedi/sdk-converter-node": "^1.20.0",
+    "axios": "^0.24.0",
     "ts-node": "^10.4.0"
   },
   "publishConfig": {
