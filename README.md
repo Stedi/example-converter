@@ -1,4 +1,8 @@
-# Stedi Converter Example Project
+# (deprecated) Stedi Converter Example Project
+
+Moved to [https://github.com/Stedi/api-starter-pack/tree/main/converter-examples](https://github.com/Stedi/api-starter-pack/tree/main/converter-examples)
+
+---
 
 This project provides a small example on how to use the Stedi Converter SDK. The SDK is available in
 [NPM](https://www.npmjs.com/package/@stedi/sdk-converter-node), and there's an example on how to use it in `/src`
